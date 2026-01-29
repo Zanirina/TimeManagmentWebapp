@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer</title>
+    <link rel="icon" type="image/png" href="media/icon.png">
+    <link rel="stylesheet" href="pomostyle.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <nav>
+        <img class="logo" src="media/logo.png" alt="">
+        <ul class="nav_links">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="techniques.html">Techniques</a></li>
+            <li><a href="pomodoro.html">Pomodoro timer</a></li>
+            <li><a href="forestpage.html">Forest timer</a></li>
+            <li><a href="kanban.html">Kanban board</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+</div>
+</header>
+
+
+<div class="container">
+  <div class="card">
+    <div class="card_header">
+      <h1>Pomodoro Timer</h1>
+
+      <div class="card_header_buttons">
+        <button id="buttonTypePomodoro" class="active" onclick="setPomodoroType(TIMER_TYPE_POMODORO);">Pomodoro</button>
+        <button id="buttonTypeShortBreak" onclick="setPomodoroType(TIMER_TYPE_SHORT_BREAK);">Short Break</button>
+      </div>
+    </div>
+
+    <div class="card_body">
+      <div id="circularProgressBar" class="progress-bar">
+        <h1 class="progress-value">25:00</h1>
+      </div>
+    </div>
+
+    <div class="card_footer">
+      <button onclick="startTimer()">Start</button>
+      <button onclick="stopTimer()">Stop</button>
+      <button onclick="resetTimer()">Reset</button>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+    <div class="container_footer">
+        <div class="row">
+            <div class="footer_column-40">
+                <h4>time=money</h4>
+                <ul class="footer_links">
+                    <li>
+                        <a>
+                            We help you maximize your time with expert tips, proven strategies, and practical tools to boost productivity, eliminate distractions, and achieve your goals effortlessly.
+                            Let us guide you to unlock your full potential and transform the way you manage time!
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer_column">
+                <h4>quick links</h4>
+                <ul class="footer_links">
+                  <li><a href="main.html">Home</a></li>
+                  <li><a href="techniques.html">Techniques</a></li>
+                  <li><a href="pomodoro.html">Pomodoro timer</a></li>
+                  <li><a href="forestpage.html">Forest timer</a></li>
+                  <li><a href="kanban.html">Kanban board</a></li>
+                  <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_column">
+                <h4>useful links</h4>
+                <ul class="footer_links">
+                    <li><a href='https://www.forestapp.cc/'>Forest</a></li>
+                    <li><a href='https://www.notion.so/828ccfd6930c490b9a06a77eaf49b4e4'>Notion</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_column">
+                <h4>contact us</h4>
+                <div class="contacts">
+                    <div class="icons">
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-phone-alt"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <ul class="footer_links">
+                        <li><a href="mailto:231481@astanait.edu.kz">Email</a></li>
+                        <li><a href="tel:+77755200663">+7-775-520-0663</a></li>
+                        <li><a href="tel:+77475921263">+7-747-592-1263</a></li>
+                        <li><a href="https://www.instagram.com/astana_it_university">Instagram</a></li>
+                        <li><a href="https://kz.linkedin.com/in/zarina-beketova-305b032aa">LinkedIn</a></li>
+                        <li><a href="https://2gis.kz/astana/firm/70000001036709805/71.417883%2C51.090732?m=71.419237%2C51.090472%2F16.33%2Fr%2F-13.3&layer=friendshttps://2gis.kz/astana/firm/70000001036709805/71.417883%2C51.090732?m=71.419237%2C51.090472%2F16.33%2Fr%2F-13.3&layer=friends">Mangilik El, C1</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+<script src="pomodoro.js"></script>
+</body>
+</html>

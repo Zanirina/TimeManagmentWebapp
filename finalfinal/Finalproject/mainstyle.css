@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #A3B18A;
+}
+
+header {
+    height: 100vh;
+    background-image: url("media/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav_links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav_links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3A5A40;
+    text-decoration: none;
+}
+
+.nav_links li a:hover {
+    color: #588157;
+}
+
+
+header .content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+header .content p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+section {
+    background: #A3B18A;
+}
+
+.about_us {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.about_us h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.about_us p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.about_us b {
+    color: #3A5A40;
+}
+
+.feat_title {
+    margin: 0;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.feat_title h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 50px 50px 50px;
+    margin: 20px 10% 75px 10%;
+    text-align: center;
+    background-color: #f3f7f8;
+    border-radius: 20px;
+}
+
+.features h2 {
+    font-weight: 500;
+    font-size: 28px;
+    padding: 50px;
+}
+
+.feats {
+    border-radius: 10px;
+}
+
+
+
+
+footer {
+    background: #A3B18A;
+    padding: 50px 0;
+}
+
+.container_footer {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_column {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer_column h4 {
+    font-size: 20px;
+    color: #3A5A40;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.footer_column ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer_column ul li a {
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+}
+
+.footer_column ul li a:hover {
+    color: #588157;
+    padding-left: 10px;
+}
+
+.footer_column-40 {
+    width: 40%;
+    padding: 0 15px;
+}
+
+.footer_column-40 h4 {
+    font-size: 20px;
+    color: #3A5A40;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.footer_column-40 ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer_column-40 ul li a {
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+}
+
+
+.footer_links {
+    list-style: none;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+/* main */
+
+#techni {
+    font-size: 45px;
+    padding: 100px;
+    margin: 20px 0px;
+    color: #3A5A40;
+    font-weight: 600;
+    border: #3A5A40 4px dashed;
+    border-radius: 20px;
+}
+
+#pomik {
+    height: 327px;
+}
+
+.pomtree {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.kanba {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.kanba img{
+    width: 100%;
+}
+
+
+
+
+
+/* button */
+.quizto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quizpic {
+    margin-bottom: 30px;
+}
+
+@keyframes scale-up {
+    from {
+        transform: scaleY(1) scaleX(1);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: scaleX(1.3) scaleY(2);
+        opacity: 0;
+    }
+}
+
+.button {
+    width: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 36px;
+    color: #ffffff;
+    border-radius: 40px;
+    background-color: #344E41;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.button__text {
+    position: relative;
+    margin-right: 12px;
+    transition: ease-in-out 0.18s;
+    z-index: 2;
+}
+
+.button__icon {
+    position: relative;
+    transition: ease-in-out 0.18s;
+    z-index: 2;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 40px;
+    z-index: -1;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 1;
+    transition: ease-in-out 0.18s;
+    transform-origin: center left;
+    transform: scaleX(0);
+    border-radius: 40px;
+}
+
+.button:hover {
+    color: #000000;
+}
+
+.button:hover:after {
+    transform-origin: center right;
+    transform: scaleX(1);
+}
+
+.button:hover .button__icon {
+    transform: translate3d(400%, 0px, 0px);
+    opacity: 0;
+}
+
+.button:hover .button__text {
+    transform: translate3d(12px, 0px, 0px);
+}
+
+.button:active:hover {
+    opacity: 0.8;
+    transition: opacity ease-in-out 0.3s;
+}
+
+.button.active:before {
+    animation: scale-up 0.3s ease;
+}
